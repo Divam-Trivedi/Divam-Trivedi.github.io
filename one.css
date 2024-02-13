@@ -4,16 +4,17 @@
     padding: 0;
 }
 body{
-    background: #2C5364; 
+    /* background: #2C5364;  */
+    background-color: #e51a3c;
     
 }
 .menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #141E30;
+    background: #d52a53;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	color: #fff;
+	color: #e71823;
 	height:88%;
     width:15%;
 	position: fixed;
@@ -45,7 +46,7 @@ body{
     font-family: 'Aladin', cursive;
 }
 .menu a:hover {
-	color: #f5af19;
+	color: #f59;
 }
 .menu a:active {
 	color: #f59;
@@ -124,7 +125,7 @@ section {
     padding:40px;
     height: 80vh;
     width: 90%;
-    background: #141E30;
+    background: #febde8;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     overflow: auto;
 }
@@ -150,7 +151,7 @@ section {
 .hbg h1 {
    padding-top: 20px;
     font-size: 78px;
-    background-image: linear-gradient(to right, #ee00ff 0%, #fbff00 100%);
+    background-image: linear-gradient(to right, #e71823 0%, #ef109b 100%);
     color: transparent;
     background-clip: text;
     font-family: 'Aladin', cursive;
@@ -161,7 +162,22 @@ p {
     font-size: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    color: #bbbbbb;
+    color: #e71823;
+}
+
+.ifyes {
+    font-size: 16px;
+    color: red;
+}
+
+.ask {
+    font-size: 30px;
+    color: red;
+}
+.sayyes {
+    font-size: 12px;
+    text-align: center;
+    color: red;
 }
 
 .ily{
